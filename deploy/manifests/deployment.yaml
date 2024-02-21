@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: docker.io/guhaargha/demo-app:0.0.1
+        image: demo-app-0.0.1
         ports:
           - containerPort: 80
         imagePullPolicy: Always
